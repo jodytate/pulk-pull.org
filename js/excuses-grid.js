@@ -1,6 +1,6 @@
 // http://codepen.io/superguigui/pen/KnEwq
 
-var c = document.getElementById ('excuses-grid');
+var c = document.getElementById('excuses-grid');
 var ctx = c.getContext("2d");
 document.body.appendChild(c);
 window.onresize = resize;
