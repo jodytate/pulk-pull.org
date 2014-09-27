@@ -8,8 +8,8 @@ window.onresize = resize;
 /*-----------------------*/
 
 var dots = [];
-var colW = 70;
-var lineH = 54;
+var colW = 100;
+var lineH = 75;
 var nbCols;
 var nbLines;
 var nbDots;
@@ -159,9 +159,9 @@ function render(){
     action.x += (mouse.x - action.x) * 0.07;
     action.y += (mouse.y - action.y) * 0.07;
     moveDots();
-    drawLines("#FFFFFF");
-    drawJoints("#555555");
-    drawDots(true, "#18a497", 1);
+    drawLines("#333333");
+    drawJoints("#333333");
+    drawDots(true, "#333333", 1);
 }
 
 resize();
